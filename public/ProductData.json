@@ -8,7 +8,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "resume-icon.png"
+    "icon": "resume-icon.png",
+    "logo": "https://img.icons8.com/color/96/resume.png"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["5000+ icons", "Editable files", "Figma support"],
-    "icon": "design-icon.png"
+    "icon": "design-icon.png",
+    "logo": "https://img.icons8.com/color/96/design.png"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Blog generator", "Ad copy", "SEO optimization"],
-    "icon": "copy-icon.png"
+    "icon": "copy-icon.png",
+    "logo": "https://img.icons8.com/color/96/content.png"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["50+ templates", "Responsive design", "Easy customization"],
-    "icon": "template-icon.png"
+    "icon": "template-icon.png",
+    "logo": "https://img.icons8.com/color/96/web-design.png"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Auto subtitles", "Scene detection", "Export in HD"],
-    "icon": "video-icon.png"
+    "icon": "video-icon.png",
+    "logo": "https://img.icons8.com/color/96/video-editing.png"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Task manager", "Calendar sync", "Cloud storage"],
-    "icon": "productivity-icon.png"
+    "icon": "productivity-icon.png",
+    "logo": "https://img.icons8.com/color/96/productivity.png"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Auto posting", "Analytics", "Multi-platform support"],
-    "icon": "social-icon.png"
+    "icon": "social-icon.png",
+    "logo": "https://img.icons8.com/color/96/social-network.png"
   },
   {
     "id": 8,
@@ -85,6 +92,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Shop templates", "Payment integration", "SEO tools"],
-    "icon": "ecommerce-icon.png"
+    "icon": "ecommerce-icon.png",
+    "logo": "https://img.icons8.com/color/96/shopping-cart.png"
   }
 ]
