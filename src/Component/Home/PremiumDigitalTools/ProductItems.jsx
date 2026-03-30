@@ -38,7 +38,7 @@ const ProductItems = ({ product,setAddToCart,addToCart }) => {
             </div>
             <h3 className='text-lg sm:text-xl lg:text-2xl font-bold'>{product.name}</h3>
             <p className='text-sm sm:text-base text-gray-500'>{product.description}</p>
-            <p className='text-xl sm:text-2xl font-bold' >${product.price} <span className='text-sm text-gray-500'>/{product.period}</span></p>
+            <p className='text-xl sm:text-2xl font-bold' >${parseInt(product.price)} <span className='text-sm text-gray-500'>/{product.period}</span></p>
             <div>
                 <ul className='space-y-1 sm:space-y-2'>
                     {product.features.map((feature, index) => (

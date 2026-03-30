@@ -21,17 +21,15 @@ function App() {
 
   return (
     <>
-      <Navbar addToCart={addToCart}></Navbar>
+      <Navbar addToCart={addToCart} setActiveCart={setActiveCart}></Navbar>
       <Banner></Banner>
       <CounterSection></CounterSection>
       <ButtonToggling addToCart={addToCart} setActiveCart={setActiveCart}></ButtonToggling>
       {activeCart === "Products" ? 
         (<Products addToCart={addToCart} setAddToCart={setAddToCart} productData={productData}></Products>)
         :
-        (<Cart addToCart={addToCart}></Cart>)
+        (<Cart addToCart={addToCart} setAddToCart={setAddToCart}></Cart>)
       }
-      
-      
     </>
   )
 }

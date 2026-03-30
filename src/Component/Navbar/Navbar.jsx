@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoCartOutline } from 'react-icons/io5';
 
-const Navbar = ({addToCart}) => {
+const Navbar = ({addToCart,setActiveCart}) => {
     return (
         <div className='bg-base-100 shadow-sm'>
             <div className="navbar max-w-7xl mx-auto px-4">
@@ -36,7 +36,7 @@ const Navbar = ({addToCart}) => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">
-                    <a className="btn rounded-full btn-ghost text-xl relative">
+                    <a onClick={()=> setActiveCart("Cart")} className="btn rounded-full btn-ghost text-xl relative">
                         <IoCartOutline />
                         <span className='absolute -top-1 right-1 bg-red-500 text-white text-xs px-1 rounded-full'>{addToCart.length}</span>
                     </a>

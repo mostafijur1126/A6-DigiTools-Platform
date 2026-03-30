@@ -16,8 +16,8 @@ const Banner = () => {
                 </div>
                 <h1 className='text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight'>Supercharge Your <br />
                     Digital Workflow</h1>
-                <p className='text-sm sm:text-base'>Access premium AI tools, design assets, templates, and productivity <br />
-                    software—all in one place. Start creating faster today.<br />
+                <p className='text-sm sm:text-base'>Access premium AI tools, design assets, templates, and productivity <span className='hidden sm:inline'><br /></span>
+                    software—all in one place. Start creating faster today.<span className='hidden sm:inline'><br /></span>
 
                     Explore Products
                 </p>
