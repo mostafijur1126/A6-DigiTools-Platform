@@ -7,6 +7,7 @@ import ButtonToggling from './Component/Home/PremiumDigitalTools/ButtonToggling'
 import Cart from './Component/Home/PremiumDigitalTools/Cart'
 import Products from './Component/Home/PremiumDigitalTools/Products'
 import Navbar from './Component/Navbar/Navbar';
+import Footer from './Component/Footer/Footer'
 
 async function loadProductData() {
   const res = await fetch('/ProductData.json');
@@ -25,11 +26,12 @@ function App() {
       <Banner></Banner>
       <CounterSection></CounterSection>
       <ButtonToggling addToCart={addToCart} setActiveCart={setActiveCart}></ButtonToggling>
-      {activeCart === "Products" ? 
+      {activeCart === "Products" ?
         (<Products addToCart={addToCart} setAddToCart={setAddToCart} productData={productData}></Products>)
         :
         (<Cart addToCart={addToCart} setAddToCart={setAddToCart}></Cart>)
       }
+      <Footer></Footer>
     </>
   )
 }
