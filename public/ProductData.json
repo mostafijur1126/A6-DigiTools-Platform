@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "resume-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Asset Pack",
+    "description": "Access thousands of UI kits, icons, and illustrations.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["5000+ icons", "Editable files", "Figma support"],
+    "icon": "design-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Copywriting Tool",
+    "description": "Generate marketing copy, blogs, and ads instantly.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Blog generator", "Ad copy", "SEO optimization"],
+    "icon": "copy-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Website Template Bundle",
+    "description": "Modern responsive website templates for all industries.",
+    "price": 79.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ templates", "Responsive design", "Easy customization"],
+    "icon": "template-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Video Editor",
+    "description": "Edit videos quickly using AI automation tools.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Auto subtitles", "Scene detection", "Export in HD"],
+    "icon": "video-icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Productivity Toolkit",
+    "description": "All-in-one productivity apps and integrations.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Task manager", "Calendar sync", "Cloud storage"],
+    "icon": "productivity-icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across all platforms.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Auto posting", "Analytics", "Multi-platform support"],
+    "icon": "social-icon.png"
+  },
+  {
+    "id": 8,
+    "name": "E-commerce Starter Kit",
+    "description": "Launch your online store with ready-made tools.",
+    "price": 59.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Shop templates", "Payment integration", "SEO tools"],
+    "icon": "ecommerce-icon.png"
+  }
+]
