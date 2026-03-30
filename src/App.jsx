@@ -1,8 +1,10 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './Component/Home/Banner/Banner'
 import CounterSection from './Component/Home/CounterSection'
 import ButtonToggling from './Component/Home/PremiumDigitalTools/ButtonToggling'
+import Cart from './Component/Home/PremiumDigitalTools/Cart'
 import Products from './Component/Home/PremiumDigitalTools/Products'
 import Navbar from './Component/Navbar/Navbar';
 
@@ -14,14 +16,22 @@ async function loadProductData() {
 const productData = loadProductData();
 // console.log(productData);
 function App() {
+  const [activeCart, setActiveCart] = useState("Products");
+  const [addToCart, setAddToCart] = useState([]);
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar addToCart={addToCart}></Navbar>
       <Banner></Banner>
       <CounterSection></CounterSection>
-      <ButtonToggling></ButtonToggling>
-      <Products productData={productData}></Products>
+      <ButtonToggling addToCart={addToCart} setActiveCart={setActiveCart}></ButtonToggling>
+      {activeCart === "Products" ? 
+        (<Products addToCart={addToCart} setAddToCart={setAddToCart} productData={productData}></Products>)
+        :
+        (<Cart addToCart={addToCart}></Cart>)
+      }
+      
+      
     </>
   )
 }
