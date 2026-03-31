@@ -1,16 +1,20 @@
 import React from 'react';
 import emptyCart from '../../../assets/empty-cart.png'
+import { toast } from 'react-toastify';
 
 const Cart = ({ addToCart, setAddToCart }) => {
-    // console.log(addToCart);
     const totalPrice = addToCart.reduce((sum, item) => sum + item.price, 0);
     function handelDelete(id) {
-        console.log(id);
         setAddToCart(addToCart => addToCart.filter(item => item.id !== id));
-
+        toast.warn('Item Deleted ⚠️',{
+            position: "top-center"
+        });
     }
     function proceedToCheckout() {
         setAddToCart([]);
+        toast.success('Payment Successfully ✅',{
+            position: "top-center"
+        });
     }
 
     return (

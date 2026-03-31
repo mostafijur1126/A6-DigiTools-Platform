@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 
 
@@ -10,9 +11,14 @@ const ProductItems = ({ product,setAddToCart,addToCart }) => {
         const isDuplicate = addToCart.some(items => items.id === product.id);
         if(!isDuplicate){
             setAddToCart(addToCart=>[...addToCart, product]);
-        }else(
-            alert("already added")
-        )
+            toast.success("Product add successfuly😍",{
+                position: "top-center",
+            });
+        }else{
+            toast.warn('already added🙂', {
+                position: "top-center",
+            });
+        }
     }
     return (
         <div className='border border-zinc-100 p-4 sm:p-5 rounded-2xl shadow-md hover:shadow-xl transition duration-300 space-y-4 relative bg-white'>
