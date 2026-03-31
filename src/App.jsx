@@ -19,7 +19,6 @@ async function loadProductData() {
   return data;
 }
 const productData = loadProductData();
-// console.log(productData);
 function App() {
   const [activeCart, setActiveCart] = useState("Products");
   const [addToCart, setAddToCart] = useState([]);

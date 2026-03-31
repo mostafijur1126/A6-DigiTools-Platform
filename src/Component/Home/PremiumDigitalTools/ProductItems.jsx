@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
+
 import { FaCheck } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
 
 
 const ProductItems = ({ product,setAddToCart,addToCart }) => {
-    const [isBuy, setIsBuy] = useState(false);
+    const isAdded = addToCart.some(items => items.id === product.id);
     function buyProduct() {
-        setIsBuy(true);
-        const isDuplicate = addToCart.some(items => items.id === product.id);
-        if(!isDuplicate){
+        if(!isAdded){
             setAddToCart(addToCart=>[...addToCart, product]);
             toast.success("Product add successfuly😍",{
                 position: "top-center",
@@ -55,13 +53,13 @@ const ProductItems = ({ product,setAddToCart,addToCart }) => {
             <button
                 onClick={buyProduct}
                 className={`btn w-full py-2 sm:py-3 text-sm sm:text-base rounded-full text-white transition duration-300
-                    ${isBuy
+                    ${isAdded
                         ? "bg-green-500"
                         : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA]"
                     }
   `}
             >
-                {isBuy ? "Added to cart" : "Buy Now"}
+                {isAdded ? "Added to cart" : "Buy Now"}
             </button>
         </div>
     );
