@@ -11,14 +11,14 @@ const ButtonToggling = ({setActiveCart,addToCart}) => {
                 onClick={()=> setActiveCart("Products")}
                 type="radio" 
                 name="my_tabs_1" 
-                className="tab rounded-full text-sm sm:text-base px-3 sm:px-5 checked:bg-gradient-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:text-white" 
+                className="tab text-[#25065D] rounded-full text-sm sm:text-base px-3 sm:px-5 checked:bg-gradient-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:text-white" 
                 aria-label="Products" 
                 defaultChecked/>
                 <input 
                 onClick={()=> setActiveCart("Cart")}
                 type="radio"
                 name="my_tabs_1" 
-                className="tab rounded-full text-sm sm:text-base px-3 sm:px-5 checked:bg-gradient-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:text-white" 
+                className="tab text-[#25065D] rounded-full text-sm sm:text-base px-3 sm:px-5 checked:bg-gradient-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:text-white" 
                 aria-label={`Cart (${addToCart.length})`} />
 
             </div>
