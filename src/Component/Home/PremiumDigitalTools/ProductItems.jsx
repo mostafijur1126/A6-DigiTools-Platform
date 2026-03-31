@@ -61,7 +61,7 @@ const ProductItems = ({ product,setAddToCart,addToCart }) => {
                     }
   `}
             >
-                {isBuy ? "Selected" : "Buy Now"}
+                {isBuy ? "Added to cart" : "Buy Now"}
             </button>
         </div>
     );
