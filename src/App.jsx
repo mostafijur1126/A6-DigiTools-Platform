@@ -8,6 +8,7 @@ import Cart from './Component/Home/PremiumDigitalTools/Cart'
 import Products from './Component/Home/PremiumDigitalTools/Products'
 import Navbar from './Component/Navbar/Navbar';
 import Footer from './Component/Footer/Footer'
+import GetStarted from './Component/Home/GetStarted'
 
 async function loadProductData() {
   const res = await fetch('/ProductData.json');
@@ -31,6 +32,7 @@ function App() {
         :
         (<Cart addToCart={addToCart} setAddToCart={setAddToCart}></Cart>)
       }
+      <GetStarted></GetStarted>
       <Footer></Footer>
     </>
   )
