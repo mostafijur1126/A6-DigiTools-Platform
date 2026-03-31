@@ -5,51 +5,60 @@ import { FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
     return (
         <div className=' bg-[#101727] text-white'>
-            <footer className="max-w-7xl mx-auto px-4 py-10 
-        grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-                <div className='space-y-3'>
-                    <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-                        DigiTools
-                    </h1>
-                    <p className='text-sm sm:text-base text-gray-300 leading-relaxed'>
-                        Premium digital tools for creators, professionals, and businesses.
-                        Work smarter with our suite of powerful tools.
-                    </p>
-                </div>
-                <div>
-                    <h6 className="footer-title text-sm sm:text-base">Product</h6>
-                    <ul className='space-y-1 text-sm sm:text-base'>
-                        <li className="link link-hover">Branding</li>
-                        <li className="link link-hover">Design</li>
-                        <li className="link link-hover">Marketing</li>
-                        <li className="link link-hover">Advertisement</li>
-                    </ul>
-                </div>
-                <div>
-                    <h6 className="footer-title text-sm sm:text-base">Company</h6>
-                    <ul className='space-y-1 text-sm sm:text-base'>
-                        <li className="link link-hover">Branding</li>
-                        <li className="link link-hover">Design</li>
-                        <li className="link link-hover">Marketing</li>
-                        <li className="link link-hover">Advertisement</li>
-                    </ul>
-                </div>
-                <div>
-                    <h6 className="footer-title text-sm sm:text-base">Resources</h6>
-                    <ul className='space-y-1 text-sm sm:text-base'>
-                        <li className="link link-hover">About us</li>
-                        <li className="link link-hover">Contact</li>
-                        <li className="link link-hover">Jobs</li>
-                        <li className="link link-hover">Press kit</li>
-                    </ul>
-                </div>
-                <div>
-                    <h6 className="footer-title text-sm sm:text-base">Social Links</h6>
-                    <div className="flex gap-4 mt-2">
-                        {/* icons same রাখো */}
-                        <a className='hover:text-purple-400 transition'><FaInstagram /></a>
-                        <a className='hover:text-purple-400 transition'><FaFacebookSquare /></a>
-                        <a className='hover:text-purple-400 transition'><FaXTwitter /></a>
+            <footer className="bg-[#0f172a] text-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                        <div className="space-y-4 text-center sm:text-left">
+                            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
+                                DigiTools
+                            </h1>
+                            <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+                                Premium digital tools for creators, professionals, and businesses.
+                                Work smarter with our suite of powerful tools.
+                            </p>
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <h6 className="font-semibold mb-3 text-sm sm:text-base">Product</h6>
+                            <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                                <li className="hover:text-white cursor-pointer">Branding</li>
+                                <li className="hover:text-white cursor-pointer">Design</li>
+                                <li className="hover:text-white cursor-pointer">Marketing</li>
+                                <li className="hover:text-white cursor-pointer">Advertisement</li>
+                            </ul>
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <h6 className="font-semibold mb-3 text-sm sm:text-base">Company</h6>
+                            <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                                <li className="hover:text-white cursor-pointer">About</li>
+                                <li className="hover:text-white cursor-pointer">Careers</li>
+                                <li className="hover:text-white cursor-pointer">Contact</li>
+                                <li className="hover:text-white cursor-pointer">Press</li>
+                            </ul>
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <h6 className="font-semibold mb-3 text-sm sm:text-base">Resources</h6>
+                            <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                                <li className="hover:text-white cursor-pointer">Help</li>
+                                <li className="hover:text-white cursor-pointer">Privacy</li>
+                                <li className="hover:text-white cursor-pointer">Terms</li>
+                            </ul>
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <h6 className="font-semibold mb-3 text-sm sm:text-base">Follow Us</h6>
+                            <div className="flex justify-center sm:justify-start gap-4 text-xl">
+                                <a className="hover:text-purple-400 transition">
+                                    <FaInstagram />
+                                </a>
+                                <a className="hover:text-purple-400 transition">
+                                    <FaFacebookSquare />
+                                </a>
+                                <a className="hover:text-purple-400 transition">
+                                    <FaXTwitter />
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </footer>
