@@ -1,5 +1,7 @@
 import React from 'react';
 import user from '../../assets/user.png';
+import product from '../../assets/package.png';
+import start from '../../assets/rocket.png';
 
 const GetStarted = () => {
     return (
@@ -19,7 +21,7 @@ const GetStarted = () => {
                     <div className='flex flex-col items-center justify-center relative bg-white p-6 md:p-10 rounded-3xl space-y-3 min-h-[260px] hover:shadow-xl transition duration-300'>
                         <div className="badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-10 h-10 flex items-center justify-center absolute top-4 right-4">02</div>
                         <div className='p-4 md:p-6 w-fit bg-[#f5e7ff] rounded-full'>
-                            <img className='w-8 md:w-10' src={user} alt="" />
+                            <img className='w-8 md:w-10' src={product} alt="" />
                         </div>
                         <h2 className='text-xl md:text-2xl font-bold'>Choose Products</h2>
                         <p className='text-sm md:text-base'>Browse our catalog and select the tools that fit your needs.</p>
@@ -27,7 +29,7 @@ const GetStarted = () => {
                     <div className='flex flex-col items-center justify-center relative bg-white p-6 md:p-10 rounded-3xl space-y-3 min-h-[260px] hover:shadow-xl transition duration-300'>
                         <div className="badge bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full w-10 h-10 flex items-center justify-center absolute top-4 right-4">03</div>
                         <div className='p-4 md:p-6 w-fit bg-[#f5e7ff] rounded-full'>
-                            <img className='w-8 md:w-10' src={user} alt="" />
+                            <img className='w-8 md:w-10' src={start} alt="" />
                         </div>
                         <h2 className='text-xl md:text-2xl font-bold'>Start Creating</h2>
                         <p className='text-sm md:text-base'>Download and start using your premium  tools immediately.</p>
