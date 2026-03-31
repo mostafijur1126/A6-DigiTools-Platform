@@ -1,6 +1,5 @@
 # React + Vite
-Project Name:
-Digital Tools Buying Website
+## Project Name: Digital Tools Buying Website
 
 A modern web application where users can explore, purchase, and manage premium digital tools easily. Built with a clean UI and smooth user experience, this platform helps users boost productivity by accessing high-quality tools in one place.
 
